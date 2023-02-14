@@ -1,0 +1,19 @@
+package javaapplication16;
+
+import java.util.Scanner;
+
+public class JavaApplication16 {
+
+    public static void main(String[] args) 
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the First number:");
+        int n=sc.nextInt();
+        System.out.println("Enter the second number:");
+        int m=sc.nextInt();
+        int k=n+m;
+        System.out.println(k);
+                
+       
+    }
+}
