@@ -1,0 +1,28 @@
+package javaapplication16;
+public class JavaApplication16 {
+
+    public static void main(String[] args) throws CloneNotSupportedException
+    {
+        Abc obj=new Abc();
+        obj.i=3;
+        obj.j=5;
+        Abc obj1=(Abc)obj.clone();
+        obj1.i=56;
+        System.out.println(obj);
+        System.out.println(obj1);
+    }
+ }
+ 
+class Abc implements Cloneable
+{
+    int i;
+    int j;
+    public String toString()
+    {
+        return "Abc{"+"i="+i+",j="+j+'}';
+    }
+    public Object clone() throws CloneNotSupportedException
+    {
+        return super.clone();
+    }
+}
