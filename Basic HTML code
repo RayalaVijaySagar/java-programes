@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8" >
+        <title>My Frist Web Page</title>
+        
+    </head>
+    <body>
+        <h1>Hello World! </h1>
+        <hr>
+        <h2>I'm Ready to learn html</h2>
+        <p>This is First Web Page</p>
+
+        <h3>My daily Shudule</h3>
+        <p>Let Me Tell you how :</p>
+        <ol>
+            <li> I learn more about web.</li>
+            <li>I plan out my schedule.</li>
+            <li>I use resources from <abbr title="Mozilla 
+            Developer Netork">MDN</abbr></li>
+        </ol>
+        
+        <hr>
+        <h2>I Also Planning Vacation</h2>
+        <p>I've been working hard <em>Need break</em></p>
+        <p>I live in <abbr title="Hyderabad">HYD</abbr> so I wanna visit beach</p>
+        <h3>Places I'd Like to visit  </h3>
+        <ul> 
+            <li>      
+                <P>I've heard Good things about carabbiean</p>
+            </li>
+            <li>
+                <p>I've Heard good things about here:</p>
+                <address>
+                    Margaritaville Island Reserve Riviera<br>
+                    Bahia petempich puerto Morelos<br>
+                    Colonia mores ,mexico 77580.
+                </address>
+            </li>
+        </ul>
+        <!--TODO :Add More Places -->
+        <h3>Places I want to Avoid</h3>
+        <dl>
+            <dt>North Pole:</dt>
+                <dd>I Hear This is <strong>Cold!</strong></dd>
+
+            <dt>South pole:</dt>
+            <dd>This is also cold.</dd>
+
+            <dt>Mountain Tops</dt>
+            <dd>These are also Cold.</dd>
+        </dl>
+        <hr>
+        &lt;&lt;&lt; Vijay Sagar &gt;&gt;&gt;
+    </body>
+
+</html>
