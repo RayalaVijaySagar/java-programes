@@ -1,0 +1,115 @@
+//index.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="aurthor" content="vijay" >
+    <title>My First html page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" >
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <hr >
+    <nav>
+      <ul>
+        <li>
+          <a href="#html">Learn HTML</a>
+        </li>
+        <li>
+          <a href="#Vacation">Planning vacation</a>
+        </li>
+      </ul>
+    </nav>
+    <hr >
+    <section id="html">
+      <h2>I'm Ready to Learn HTML</h2>
+      <p>My first html page</p>
+      <h3>My Daily shedule</h3>
+      <p>Let me tell you how i prepare</p>
+      <ol>
+        <li>...I learn more about web development.</li>
+        <li>...I plan my shedule.</li>
+        <li>
+          ...I use resources from
+          <a href="https://youtu.be/kUMe1FH4CHE"> Youtube.</a>
+        </li>
+      </ol>
+    </section>
+    <p><a href="#">Back To Top </a></p>
+    <hr >
+    <section id="Vacation">
+      <h2>I'm also planning vacation</h2>
+      <p>I've been working hard and <em>really need a get away</em></p>
+      <p>
+        I live in <abbr title="kanasas"> KS </abbr>so i want to visit a beach.
+      </p>
+      <h3>Place I'd like to visit.</h3>
+      <ul>
+        <li><p>I've heard good things about the caribbean.</p></li>
+        <li>
+          <p>I've heard good things about here:</p>
+          <address>
+            Margaritaville Island Reserve Riviera Cancun<br >
+            Bahia Petempich puerto Morelos,Mexico<br>
+            Colonia Morelos , Mexico 77580
+          </address>
+        </li>
+      </ul>
+      <!--TODO :Add more Places-->
+      <h3>Place I want to avoid .</h3>
+      <dl>
+        <dt>North Pole</dt>
+        <dd>I Here This is Very <strong>cold</strong></dd>
+        <dt>South pole</dt>
+        <dd>I here This is also <strong>Cold</strong></dd>
+        <dt>Mountain Tops</dt>
+        <dd>This is also cold</dd>
+      </dl>
+    </section>
+    <p>Anywhere cold <strong>No way!</strong></p>
+    <hr >
+    &lt;&lt;&lt; &copy; <a href="about.html">Vijay Sagar</a> &gt;&gt;&gt;
+    <p><a href ="#">Back To top</a></p>
+  </body>
+</html>
+
+
+
+
+//about.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta
+      name="decription"
+      content="hi,I'm Vijay Sagar 
+        This page is about me."
+    >
+    <title>About me</title>
+  </head>
+  <body>
+    <h1>Hi , I'm Vijya Sagar</h1>
+    <hr >
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a
+      voluptatem id eveniet, minus atque debitis quam facilis optio fuga natus
+      perferendis expedita quisquam praesentium adipisci laudantium voluptatum
+      fugiat. A!
+    </p>
+    <hr >
+    <ul>
+      <li>Download an<a href="html.png" download> HTML5 favicon</a></li>
+
+      <li>Dail <a href="tel:+917330804026"> My Phone Number</a></li>
+      <li>Trt Here<a href="https://www.onlinegdb.com/">HTML</a></li>
+    </ul>
+    <hr >
+    &lt;&lt;&lt;&copy;Vijay Sagar &gt;&gt;&gt;
+
+    <p><a href="index.html">GO TO FIRST PAGE</a></p>
+  </body>
+</html>
