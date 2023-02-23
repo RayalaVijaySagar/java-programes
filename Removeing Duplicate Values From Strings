@@ -1,0 +1,44 @@
+package javaapplication16;
+
+import java.util.*;
+import static javaapplication16.duplicateRemove.removeDuplicte;
+
+
+public class JavaApplication16
+{
+
+    public static void main(String[] args) throws Exception
+    {
+        String str1="abcdef";
+        String str2="efghij";
+        String str3="ijklmn";
+        String str4=str1+str2+str3;
+        char str[]=str4.toCharArray();
+        int len=str4.length();
+        removeDuplicte(str,len);
+        
+    }
+}
+class duplicateRemove
+{
+    static void removeDuplicte(char str[],int length)
+    {
+        int index=0;
+        for(int i=0;i<length;i++)
+        {
+            int j;
+            for(j=0;j<i;j++)
+            {
+                if(str[i]==str[j])
+                {
+                    break;
+                }
+            }
+            if(j==i)
+            {
+                str[index++]=str[i];
+            }
+        }
+        System.out.println(String.valueOf(Arrays.copyOf(str,index)));
+    }
+}
