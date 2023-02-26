@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="aurthor" content="vijay" >
+    <title>My First html page</title>
+    <link rel="icon" href="img/HTMLlogo.png" type="image/x-icon" >
+  </head>
+  <body>
+    <header>
+      <h1>My Goals For The Year</h1>
+      <nav aria-label="primary-navigation">
+        <ul>
+          <li>
+            <a href="#html">Learn HTML</a>
+          </li>
+          <li>
+            <a href="#Vacation">Planning vacation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <hr >
+    <main>
+      <article id="html">
+        <h2>I'm Ready to Learn HTML</h2>
+        <p>My first html page</p>
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="img/HTMLlogo.png"
+            alt="HTML5 logo"
+            title="html logo"
+            width="200"
+            height="200"
+          >
+          <figure> 
+            <figcaption>An Example of HTML5 code</figcaption>
+          </figure>
+        </section>
+        <section>
+          <h3>My Daily shedule</h3>
+          <p>Let me tell you how i prepare</p>
+          <ol>
+            <li>...I learn more about web development.</li>
+            <li>...I plan my shedule.</li>
+            <li>
+              ...I use resources from
+              <a href="https://youtu.be/kUMe1FH4CHE"> Youtube.</a>
+            </li>
+          </ol>
+          <aside>
+            <details>
+              <summary>Guess The number<mark>hours I code </mark>per day.</summary>
+              <p>I start aroud 8am and I write code for 3hours .</p>
+            </details>
+          </aside>
+        </section>
+      </article>
+
+      <p><a href="#">Back To Top </a></p>
+      <hr >
+      <article id="Vacation">
+        <h2>I'm also planning vacation</h2>
+        <p>I've been working hard and <em>really need a get away</em></p>
+        <p>
+          I live in <abbr title="kanasas"> KS </abbr>so i want to visit a beach.
+        </p>
+        <section>
+          <h3>Place I'd like to visit.</h3>
+          <ul>
+            <li>
+              <p>I've heard good things about the caribbean.</p>
+              <figure>
+                <img
+                  src="img/carebean.jpg"
+                  alt="caribbean"
+                  title="i wnna  vist here"
+                  width="400"
+                  height="200"
+                  loading="lazy"
+                >
+                <figcaption>Caribbean Beach Getaway.</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p>I've heard good things about here:</p>
+              <address>
+                Margaritaville Island Reserve Riviera Cancun<br >
+                Bahia Petempich puerto Morelos,Mexico<br >
+                Colonia Morelos , Mexico 77580
+              </address>
+              <figure>
+                <img
+                  src="img/cancun.jpg"
+                  alt="Cancun beach"
+                  width="350"
+                  height="220"
+                  title="cancon beach"
+                >
+                <figcaption>Cancon Beach</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+        <!--TODO :Add more Places-->
+        
+        <section>
+          <h3>Place I want to avoid .</h3>
+          <dl>
+            <dt>North Pole</dt>
+            <dd>I Here This is Very <strong>cold</strong></dd>
+            <dt>South pole</dt>
+            <dd>I here This is also <strong>Cold</strong></dd>
+            <dt>Mountain Tops</dt>
+            <dd>This is also cold</dd>
+          </dl>
+        </section>
+      </article>
+    </main>
+    <hr >
+    <footer>
+      <p>
+        &lt;&lt;&lt; &copy; <a href="about.html">Vijay Sagar</a> &gt;&gt;&gt;
+      </p>
+      <p><a href="#">Back To top</a></p>
+    </footer>
+  </body>
+</html>
+
+
+
+
+
+
+//about.html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta
+      name="decription"
+      content="hi,I'm Vijay Sagar 
+        This page is about me."
+    >
+    <title>About me</title>
+  </head>
+  <body>
+    <h1>Hi , I'm Vijya Sagar</h1>
+    <hr >
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate a
+      voluptatem id eveniet, minus atque debitis quam facilis optio fuga natus
+      perferendis expedita quisquam praesentium adipisci laudantium voluptatum
+      fugiat. A!
+    </p>
+    <hr >
+    <ul>
+      <li>Download an <a href="img/HTMLlogo.png" download> HTML5 favicon</a></li>
+
+      <li>Dail <a href="tel:+917330804026"> My Phone Number</a></li>
+      <li>Trt Here<a href="https://www.onlinegdb.com/">HTML</a></li>
+    </ul>
+    <hr >
+    &lt;&lt;&lt;&copy;Vijay Sagar &gt;&gt;&gt;
+
+    <p><a href="index.html">GO TO FIRST PAGE</a></p>
+  </body>
+</html>
