@@ -1,0 +1,44 @@
+public class JavaApplication17 
+{
+    public static void main(String[] args) throws Exception
+    {
+       student s1=new student();
+       s1.name="vijay";
+       s1.mark=95;
+       s1.rollno=19106095;
+       
+       student s2=new student();
+       s2.name="rayudu";
+       s2.mark=85;
+       s2.rollno=19106048;
+       
+       
+       student s3=new student();
+       s3.name="manoj";
+       s3.mark=60;
+       s3.rollno=19106051;
+       
+       
+       student s4=new student();
+       s4.name="ajay";
+       s4.mark=95;
+       s4.rollno=19106095;
+      
+        
+       student students[]=new student[4];
+       students[0]=s1;
+       students[1]=s2;
+       students[2]=s3;
+       students[3]=s4;
+       for(int i=0;i<students.length;i++)
+       {
+           System.out.println(students[i].name+" : "+students[i].mark);
+       }
+    }
+}            
+class student
+{
+    int rollno;
+    String name;
+    int mark;
+}
