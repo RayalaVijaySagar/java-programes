@@ -1,0 +1,23 @@
+// here we convert the primitive data type to object type called boxing
+//and reverse is known as unboxing this helps to work in some frameworks like collections.
+
+
+public class JavaApplication21 
+{
+    public static void main(String []args) 
+    {
+        int num=7;
+        Integer num1 = new Integer(8);  //boxing //---is deplicated(only fornow)
+        Integer num2=num;//Autoboxing
+        double num5=num;//Autoboxing
+        
+        int num3=num2.intValue(); //unboxing 
+        int num4=num2;//autounboxing
+        System.out.println(num3);//unboxing
+        
+        String str="12";
+        int num6=Integer.parseInt(str);
+        System.out.println(num6 *5);
+        
+    }
+}
