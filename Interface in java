@@ -1,0 +1,53 @@
+//interface gives methods to use ,we can't create object out of it.
+//all methods inside interface are public abstract defautly
+//all varibles inside interface are final Static defautly
+public class interface
+{
+   public static void main(String[] args) 
+    {
+        Mobile obj1=new samsung();
+        Mobile obj2=new iphone();
+        Buy obj3=new Buy();
+        obj3.buy(obj1);
+        
+        
+        
+    }         
+}
+interface Mobile
+{
+    int year=2023;
+    String camera="104Mp";
+    String model();
+    int price();   
+}
+class samsung implements Mobile
+{
+    public String model()
+    {
+        return "galaxy_s4";
+    }
+    public int price()
+    {
+        return 70000;
+    }
+}
+class iphone implements Mobile
+{
+    public String model()
+    {
+        return "ipnoe 13";
+    }
+    public int price()
+    {
+        return 67000;
+    }
+}     
+class Buy
+{
+    public void buy(Mobile mob)
+    {
+        System.out.println(mob.model()+":"+mob.price());
+        System.out.println(Mobile.year+":"+Mobile.camera);
+    }
+}
