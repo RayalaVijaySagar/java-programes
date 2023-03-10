@@ -1,0 +1,38 @@
+//Inner Class 
+public class JavaApplication21 
+{
+    public static void main(String []args) 
+    {
+       U obj=new U();
+       obj.fly();
+       
+       U.B obj1= obj.new B();//calling normal inner class
+       obj1.show();
+       
+       U.C obj2= new U.C();// calling a inner static class
+       obj2.statshow();
+    }
+}
+
+class U
+{
+    int a;
+    public void fly()
+    {
+        System.out.println("flying");
+    }
+    class B
+    {
+       public void show()
+       {
+           System.out.println("showing");
+       }          
+    }
+    static class C
+    {
+       public void statshow()
+       {
+           System.out.println("stat showing");
+       }          
+    }
+}
