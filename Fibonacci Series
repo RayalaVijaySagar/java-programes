@@ -1,0 +1,25 @@
+public class Node {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value upto which :");
+        int n = sc.nextInt();
+
+        int a = 1;
+        int b = 1;
+        int k = 0;
+        System.out.print("1  1 ");
+        while (k < n) {
+
+            k = a + b;
+            if (k < n) {
+                System.out.print(k + " ");
+                a = b;
+                b = k;
+
+
+            }
+
+
+        }
+    }
+}
