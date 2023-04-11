@@ -1,0 +1,18 @@
+ class Main{
+     public static void main(String args[]){
+         int n=121;
+         int temp=n;
+         int r=0,s=0;
+         while(n>0){
+             r=n%10;
+             n=n/10;
+             s=s*10+r;
+         }
+         if(temp==s){
+             System.out.println("Number is Polindrome");
+         }
+         else {
+             System.out.println("Not Polindrome");
+         }
+     }
+ }
