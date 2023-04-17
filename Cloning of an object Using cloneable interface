@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String args[]) throws CloneNotSupportedException {
+        A obj =new A();
+        obj.i=5;
+        obj.j=6;
+
+        A obj1=new A();
+        obj1=(A)obj.clone();
+        obj1.i=40;
+        System.out.println(obj1);
+        System.out.println(obj);
+    }
+}
+class A implements Cloneable
+{
+    int i,j;
+
+    @Override
+    public String toString() {
+        return "A{" + "i=" + i + ", j=" + j + '}';
+    }
+    public Object clone() throws CloneNotSupportedException
+    {
+       return super.clone();
+    }
+}
