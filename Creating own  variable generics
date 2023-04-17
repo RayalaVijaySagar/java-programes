@@ -1,0 +1,26 @@
+public class Node
+{
+        public static void main(String args[]) {
+            Containerr<String> obj = new Containerr<>();
+            // here by passing Integer here we assign the integer data type to Data_Type in cotainer class
+            obj.value =" ss";
+            obj.ad();
+        }
+    }
+
+    class Containerr<T> // it got it type from object creation container
+    {                   //ceeating own generics
+        T value;
+
+        public T getValue() {
+            return value;
+        }
+
+        public void setValue(T value) {
+            this.value = value;
+        }
+
+        public void ad() {
+            System.out.println(value.getClass().getName());
+        }
+    }
