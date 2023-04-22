@@ -1,3 +1,5 @@
+//method-1;
+
 class Main{
     public static void main(String args[]){
         Scanner sc =new Scanner(System.in);
@@ -14,6 +16,35 @@ class Main{
         }
         else {
             System.out.println("Not Prime");
+        }
+    }
+}
+
+
+//method 2
+
+
+public class prime {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter The Number:");
+        int n = sc.nextInt();
+        if(n>0){
+            int count=0;
+            for(int i=2;i<=n/2;i++){
+                if(n%i==0){
+                    count++;
+                }
+            }
+            if(count>0){
+                System.out.println("NotPrime");
+            }
+            else{
+                System.out.println("prime");
+            }
+        }
+        else{
+            System.out.println("enter the valid number");
         }
     }
 }
