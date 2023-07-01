@@ -1,0 +1,36 @@
+import java.util.*;
+
+class MyHeap {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        List<Player> list=new ArrayList<>();
+        int n=Integer.parseInt(sc.next());
+        for (int i = 0; i < n; i++) {
+            list.add(new Player(sc.next(),sc.nextInt()));
+        }
+        Comparator<Player> com=new compare();
+        Collections.sort(list,com);
+        for(Player I:list){
+            System.out.println(I.name+" "+I.score);
+        }
+    }
+}
+class compare implements Comparator<Player> {
+    public int compare(Player firstPlayer, Player secondPlayer) {
+        if(firstPlayer.score<secondPlayer.score){
+            return 1;
+        }
+        if(firstPlayer.score==secondPlayer.score){
+            return firstPlayer.name.compareTo(secondPlayer.name);
+        }
+        return -1;
+  }
+}
+class Player{
+    int score;
+    String name;
+    public Player(String name,int score){
+        this.name=name;
+        this.score=score;
+    }
+}
