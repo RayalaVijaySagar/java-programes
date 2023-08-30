@@ -1,0 +1,30 @@
+static String intoBinary(int num1){
+        int k;
+        String str="";
+        while(num1>0){
+            k=num1%2;
+            num1=num1/2;
+        if(k==0){
+         str= str.concat("0 ");
+        }
+        else{
+           str= str.concat("1 ");
+        }
+        }
+        String str2="";
+        for(int i=str.length()-1;i>=0;i--){
+           str2= str2.concat(String.valueOf(str.charAt(i)));
+        }
+        return str2;
+    }
+
+
+
+// with recursion.
+
+ static int intoBinary(int num1){
+        if(num1==0){
+            return 0;
+        }
+       return num1%2+10*intoBinary(num1/2);
+    }
