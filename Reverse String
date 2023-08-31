@@ -1,0 +1,8 @@
+// Using Recursion
+
+public static String reverse(Sting str){
+  if (str.isEmpty())
+            return str;
+        //Calling Function Recursively
+        return reverse(str.substring(1)) + str.charAt(0);
+  }
